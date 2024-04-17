@@ -78,7 +78,7 @@ def search_by_keyword(api_key, keyword, max_results):
             print("No videos found.")
 
     except HttpError as e:
-        print("An HTTP error occurred:")
+        print("An HTTP error occurrhed:")
         print(e.content)
 
     return videos
